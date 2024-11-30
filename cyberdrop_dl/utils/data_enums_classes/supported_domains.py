@@ -5,6 +5,7 @@ FORUMS = [
     ("f95zone", "f95zone.to"),
     ("leakedmodels", "leakedmodels.com"),
     ("nudostar", "nudostar.com"),
+    ("simpcity", "simpcity.su"),
     ("xbunker", "xbunker.nu"),
 ]
 
@@ -54,6 +55,7 @@ WEBSITES = [
     ("rule34vault", "rule34vault"),
     ("saint", "saint"),
     ("scrolller", "scrolller"),
+    ("simpcity", "simpcity"),
     ("socialmediagirls", "socialmediagirls"),
     ("toonily", "toonily"),
     ("tokyomotion.net", "tokyomotion.net"),
