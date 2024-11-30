@@ -71,7 +71,7 @@ class SimpCityCrawler(Crawler):
             password = self.manager.config_manager.authentication_data.forums.simpcity_password
             wait_time = 5
             simple_cookie = SimpleCookie()
-            simple_cookie.load(self.manager.config_manager.authentication_data['Forums']['simpcity_cookies'])
+            simple_cookie.load(self.manager.config_manager.authentication_data.forums.simpcity_cookies)
             self.client.client_manager.cookies.update_cookies(simple_cookie, response_url=self.primary_base_domain)
             self.logged_in = True
 
