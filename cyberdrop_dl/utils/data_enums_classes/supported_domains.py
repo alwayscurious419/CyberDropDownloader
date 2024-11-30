@@ -55,7 +55,6 @@ WEBSITES = [
     ("rule34vault", "rule34vault"),
     ("saint", "saint"),
     ("scrolller", "scrolller"),
-    ("simpcity", "simpcity"),
     ("socialmediagirls", "socialmediagirls"),
     ("toonily", "toonily"),
     ("tokyomotion.net", "tokyomotion.net"),
