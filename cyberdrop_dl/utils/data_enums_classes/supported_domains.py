@@ -6,6 +6,7 @@ FORUMS = {
     "f95zone": "f95zone.to",
     "leakedmodels": "leakedmodels.com",
     "nudostar": "nudostar.com",
+    "simpctiy": "simpcity.su",
     "xbunker": "xbunker.nu",
 }
 
@@ -62,8 +63,8 @@ WEBSITES = {
     "xxxbunker": "xxxbunker",
 }
 
-if next((tag for tag in PRERELEASE_TAGS if tag in current_version), False):
-    FORUMS["simpcity"] = "simpcity"
+#if next((tag for tag in PRERELEASE_TAGS if tag in current_version), False):
+    #FORUMS["simpcity"] = "simpcity"
 
 SUPPORTED_SITES = FORUMS | WEBSITES
 
