@@ -62,11 +62,11 @@ class SimpCityCrawler(Crawler):
         if not self.logged_in and self.login_attempts == 0:
             login_url = self.primary_base_domain / "login"
             host_cookies = self.client.client_manager.cookies._cookies.get((self.primary_base_domain.host, ""), {})
-            session_cookie = host_cookies.get("xf_user").value if "xf_user" in host_cookies else None
-            if not session_cookie:
-                session_cookie = self.manager.config_manager.authentication_data.forums.simpcity_xf_user_cookie
+            #session_cookie = host_cookies.get("xf_user").value if "xf_user" in host_cookies else None
+            #if not session_cookie:
+                #session_cookie = self.manager.config_manager.authentication_data.forums.simpcity_xf_user_cookie
 
-            session_cookie = self.manager.config_manager.authentication_data.forums.simpcity_xf_user_cookie
+            #session_cookie = self.manager.config_manager.authentication_data.forums.simpcity_xf_user_cookie
             username = self.manager.config_manager.authentication_data.forums.simpcity_username
             password = self.manager.config_manager.authentication_data.forums.simpcity_password
             wait_time = 5
