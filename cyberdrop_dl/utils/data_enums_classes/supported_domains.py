@@ -6,7 +6,7 @@ FORUMS = {
     "f95zone": "f95zone.to",
     "leakedmodels": "leakedmodels.com",
     "nudostar": "nudostar.com",
-    "simpctiy": "simpcity.su",
+    "simpcity": "simpcity.su",
     "xbunker": "xbunker.nu",
 }
 
